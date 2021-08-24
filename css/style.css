@@ -1,0 +1,11 @@
+.cardminheight {
+  min-height: 400px;
+}
+
+#cardbox {
+  position: relative;
+}
+
+#botton-cardbox {
+  bottom: 0;
+}
