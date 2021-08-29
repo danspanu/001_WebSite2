@@ -9,3 +9,18 @@
 #botton-cardbox {
   bottom: 0;
 }
+
+.read_more {
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.accordion_color {
+  background-color: lightsteelblue;
+}
+
+@media all and (max-width: 992px) {
+  .cardminheight {
+    min-height: auto;
+  }
+}

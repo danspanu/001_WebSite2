@@ -18,10 +18,10 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Essentials</a>
+            <a href="#id_main" class="nav-link">Essentials</a>
           </li>
           <li class="nav-item">
-            <a href="2technologies.html" class="nav-link">Technologies</a>
+            <a href="#id1" class="nav-link">Technologies</a>
           </li>
           <li class="nav-item">
             <a href="3devops1by1.html" class="nav-link">1-by-1</a>
@@ -46,7 +46,7 @@
   </div>
 </section>
 <!-- Pillars section 1 -->
-<section class="p-5 bg-primary">
+<section id="id_main" class="p-5 bg-primary">
   <div class="container">
     <div class="row text-center g-4">
       <div class="col-lg" >
@@ -59,7 +59,8 @@
             <p class="card-text">
               Any DevOps professional must learn to code because automation is achieved through coding. Some programming languages do stand out here. 
             </p>
-            <button type="button" class="align-self btn btn-block btn-secondary" style="margin-top: auto;">Read More</button>
+            <!-- <button type="button" class="align-self btn btn-block btn-secondary" style="margin-top: auto;"><a class="link-info" style="text-decoration:none;" href="#id1">Read More</a></button> -->
+            <a class="align-self btn btn-block btn-secondary read_more" href="#id1" role="button" >Read More</a>
           </div>
         </div>
       </div>
@@ -73,7 +74,7 @@
             <p class="card-text">
               As part of the DevOps roadmap, you need to learn the OS concepts such as Windows, UNIX, and Linux. Both Linux and Git have the same author.
             </p>
-            <button type="button" class="align-self btn btn-block btn-primary" style="margin-top: auto;">Read More</button>
+            <a class="align-self btn btn-block btn-primary read_more" href="#id2" role="button" >Read More</a>
           </div>
         </div>
       </div>
@@ -87,7 +88,7 @@
             <p class="card-text">
               Being aware of the networking concepts and managing devices such as Switches, Firewall, IDS/IPS, and routers, etc. is also required.
             </p>
-            <button type="button" class="align-self btn btn-block btn-secondary" style="margin-top: auto;">Read More</button>
+            <a class="align-self btn btn-block btn-secondary read_more" href="#id1" role="button" >Read More</a>
           </div>
         </div>
       </div>
@@ -101,7 +102,7 @@
             <p class="card-text">
               Automation of the server management is key to DevOps as these servers provide the necessary platform for the applications.
             </p>
-            <button type="button" class="align-self btn btn-block btn-primary" style="margin-top: auto;">Read More</button>
+            <a class="align-self btn btn-block btn-primary read_more" href="#id1" role="button" >Read More</a>
           </div>
         </div>
       </div>
@@ -122,7 +123,7 @@
             <p class="card-text">
               There are various dev, test, and prod environments that consist of a lot of infrastructures that need to be configured, automated, managed, monitored, and logged.
             </p>
-            <button type="button" class="align-self btn btn-block btn-secondary" style="margin-top: auto;">Read More</button>
+            <a class="align-self btn btn-block btn-secondary read_more" href="#id1" role="button" >Read More</a>
           </div>
         </div>
       </div>
@@ -136,7 +137,7 @@
             <p class="card-text">
               Applications are built, tested, and deployed in production by automating the workflow. 
             </p>
-            <button type="button" class="align-self btn btn-block btn-primary" style="margin-top: auto;">Read More</button>
+            <a class="align-self btn btn-block btn-primary read_more" href="#id1" role="button" >Read More</a>
           </div>
         </div>
       </div>
@@ -150,7 +151,7 @@
             <p class="card-text">
               It is crucial to know how your application is performing, especially in production environments. For this we need to monitor it with various tools.
             </p>
-            <button type="button" class="align-self btn btn-block btn-secondary" style="margin-top: auto;">Read More</button>
+            <a class="align-self btn btn-block btn-primary read_more" href="#id1" role="button" >Read More</a>
           </div>
         </div>
       </div>
@@ -164,13 +165,118 @@
             <p class="card-text">
               Many of the companies are transforming from on-premises to cloud and using cloud services so that they spend only the services offered and not on the infrastructure. 
             </p>
-            <button type="button" class="align-self btn btn-block btn-primary" style="margin-top: auto;">Read More</button>
+            <a class="align-self btn btn-block btn-primary read_more" href="#id1" role="button" >Read More</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Accordion section -->
+<section id="id1" class="bg-dark p-3">
+  <h3 class="card-title mb-3 text-light">1. Programming</h3>
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button accordion_color" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          <h4 class="text-dark">Python</h4>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <code>
+            <ul class="list-group">
+              <li class="list-group-item"><strong>Learn the basics</strong></li>
+              <li class="list-group-item">Do some small challenges</li>
+              <li class="list-group-item">Work on one or two bigger projects</li>
+              <li class="list-group-item">Bonus: Add some HTML and CSS, it does not harm</li>
+            </ul>
+          </code>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Javascript
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Golang
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Ruby
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="id2" class="bg-secondary p-3">
+  <h3 class="card-title mb-3 text-light">2. Operating Systems</h3>
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Linux
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Unix
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Windows
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <script src="../bootstrap/js/bootstrap.bundle.js"></script>
   </body>
